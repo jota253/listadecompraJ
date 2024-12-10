@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lista de Compras</h1>
+    
+    <div class="lista-container">
+        <ul id="lista-compras"></ul>
+    </div>
+
+    <div class="add-item">
+        <input type="text" id="novo-item" placeholder="Nome do item">
+        <input type="text" id="url-imagem" placeholder="URL da imagem">
+        <button onclick="adicionarItem()">Adicionar</button>
+    </div>
+
+    <button onclick="restaurarLista()">Restaurar Lista Pré-definida</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
